@@ -1,0 +1,55 @@
+.navbar {
+  background-color: white;
+}
+
+.jumbotron {
+  padding-top: 7rem;
+}
+
+.jumbotron {
+  background-color: #fff494;
+  /* sheer black #0e0e0e */
+}
+
+#about {
+  background-color: white;
+  /* beige #e9e8e8 */
+}
+
+#projects {
+  background-color: #f2cfff;
+}
+
+#contact {
+  background-color: white;
+}
+
+footer {
+  background-color: #d0ffbf;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+h1 .display4:hover {
+  animation: zoom_in_and_fade 1s;
+}
+
+@keyframes zoom_in_and_fade {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
